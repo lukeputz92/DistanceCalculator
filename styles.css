@@ -1,0 +1,17 @@
+th, td {
+  border: 1px solid black;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+.grid-container {
+  display: grid;
+  align-content: center;
+}
+
+h1 {
+  font-family: arial, sans-serif;
+}
