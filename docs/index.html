@@ -1,22 +1,24 @@
 <head>
   <script type="text/javascript" src="index.js"></script>
   <script type="text/javascript" src="cities.json"></script>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
   <div class="grid-container">
-    <h1>Distance From Oregon State University</h1>
-    <table id="distance-table" class="ui celled table">
+    <h1>City Distance From Oregon State University</h1>
+    <table id="distance-table">
       <thead id="distance-table-header">
         <tr>
           <th>Name</th>
-          <th>Latitude</th> 
+          <th>Latitude</th>
           <th>Longitude</th>
-          <th style="cursor: pointer;" id="distance-header">Distance</th>
+          <th style="cursor: pointer;" id="distance-header">Distance (m)</th>
         </tr>
       </thead>
     </table>
-    <button id="my-button">BUTTON<i class="ldot"></i><i class="rdot"></i></button>
+    <button id="my-button">
+      BUTTON<i class="ldot"></i><i class="rdot"></i>
+    </button>
   </div>
 </body>
