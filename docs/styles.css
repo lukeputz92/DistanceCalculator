@@ -1,0 +1,66 @@
+th, td {
+  border: 1px solid black;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  grid-row: 2;
+  grid-column: span 8;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 60px;
+}
+
+h1 {
+  font-family: arial, sans-serif;
+  grid-column: span 8;
+  grid-row: 1;
+  align-content: center;
+}
+
+Button {
+	-moz-box-shadow:inset 0px 0px 0px 2px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 2px #ffffff;
+	box-shadow:inset 0px 0px 0px 2px #ffffff;
+	background-color:#D3832B;
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	border:2px solid #D73F09;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:12px 46px;
+  text-decoration:none;
+  position: relative;
+  grid-row: 9;
+}
+
+.ldot {
+  height:15px;
+  width: 15px;
+  bottom: 21px;
+  left: 18px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+}
+
+.rdot {
+  height:15px;
+  width: 15px;
+  bottom: 21px;
+  right: 18px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+}
